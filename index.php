@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Авторизация</title>
-    <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="visual/styles/css/main.css">
 </head>
 <body>
 <!-- Форма авторизации -->
-<form action="" method="GET">
+<form action="workers/Controller.php" method="POST">
     <label>Login</label>
     <input type="text" placeholder="Type your login">
     <label>Password</label>
